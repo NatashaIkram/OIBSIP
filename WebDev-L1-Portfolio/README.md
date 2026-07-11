@@ -5,7 +5,7 @@ This project is developed as part of the Oasis Infobyte Web Development & Design
 
 ## Project Overview
 
-A production-quality personal portfolio for Natasha Ikram, Frontend Developer, designed to
+A responsive personal portfolio for Natasha Ikram, Frontend Developer, designed to
 read like a real product — restrained, editorial, and dark-themed — rather than a student
 project. Built entirely with semantic HTML5, hand-authored CSS3, and vanilla JavaScript, with
 no frameworks or build tooling required.

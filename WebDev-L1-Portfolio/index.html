@@ -1,1 +1,353 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natasha Ikram — Frontend Developer</title>
+  <meta name="description" content="Natasha Ikram, Frontend Developer — building elegant, accessible and responsive digital experiences through clean code and thoughtful design.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#top" class="navbar__logo" aria-label="Natasha Ikram — home">Natasha<span>.</span></a>
+
+      <nav class="navbar__nav" aria-label="Primary">
+        <ul class="navbar__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--ghost navbar__resume" href="#" download>Resume</a>
+
+      <button class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="navbarMobile" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="navbar__mobile" id="navbarMobile">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn--primary" href="#" download>Download Resume</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <div class="hero__copy" data-reveal>
+          <p class="eyebrow">Frontend Developer</p>
+          <h1 class="hero__title">Building thoughtful digital products with modern frontend engineering.</h1>
+          <p class="hero__lead">I design and build interfaces that hold up under scrutiny —
+            fast, accessible, and considered down to the pixel. Currently completing a BS in
+            Information Technology while shipping real client work.</p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero__art" aria-hidden="true" data-reveal>
+          <div class="sphere-wrap" id="sphereWrap">
+            <div class="sphere-glow"></div>
+            <svg class="sphere" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+              <g id="sphereGroup" fill="none" stroke="#00C896" stroke-width="0.75">
+                <ellipse cx="210" cy="210" rx="170" ry="170" opacity="0.5"/>
+                <ellipse cx="210" cy="210" rx="170" ry="60" opacity="0.35"/>
+                <ellipse cx="210" cy="210" rx="170" ry="110" opacity="0.35"/>
+                <ellipse cx="210" cy="210" rx="170" ry="150" opacity="0.35"/>
+                <ellipse cx="210" cy="210" rx="60" ry="170" opacity="0.35"/>
+                <ellipse cx="210" cy="210" rx="110" ry="170" opacity="0.35"/>
+                <ellipse cx="210" cy="210" rx="150" ry="170" opacity="0.35"/>
+              </g>
+              <circle cx="210" cy="210" r="3" fill="#00C896"/>
+              <circle cx="60" cy="140" r="2.5" fill="#00C896" opacity="0.7"/>
+              <circle cx="355" cy="270" r="2.5" fill="#00C896" opacity="0.7"/>
+              <circle cx="300" cy="80" r="2" fill="#FFFFFF" opacity="0.5"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="projects" id="projects">
+      <div class="section-inner">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Selected Work</p>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-lead">A small, deliberate collection — chosen for craft, not
+            quantity.</p>
+        </div>
+
+        <div class="project-list">
+
+          <article class="project-card project-card--featured" data-reveal>
+            <div class="project-card__media">
+              <img src="images/project-lumera.svg" alt="Luméra Jewels landing page in a dark browser frame, featuring a faceted emerald gem illustration and serif wordmark" loading="lazy" width="800" height="600">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">01</span>
+              <h3 class="project-card__title">Luméra Jewels</h3>
+              <p class="project-card__desc">A luxury jewelry landing page built on restraint —
+                generous negative space, a refined type pairing, and a single faceted-gem motif
+                carried through every section.</p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">JavaScript</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/NatashaIkram" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.9 5.34.9 11.6c0 5.02 3.26 9.28 7.79 10.78.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.17.69-3.84-1.53-3.84-1.53-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.1 11.1 0 0 0 23.1 11.6C23.1 5.34 18.27.5 12 .5z"/></svg>
+                  Code
+                </a>
+                <a href="#" class="btn btn--primary btn--sm">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-card__media">
+              <img src="images/project-converter.svg" alt="Temperature converter interface showing a Celsius input and live Fahrenheit output on a dark card" loading="lazy" width="800" height="600">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">02</span>
+              <h3 class="project-card__title">Temperature Converter</h3>
+              <p class="project-card__desc">A focused utility converting between Celsius and
+                Fahrenheit in real time — built to practice clean logic, validation, and
+                accessible input design.</p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/NatashaIkram" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.9 5.34.9 11.6c0 5.02 3.26 9.28 7.79 10.78.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.17.69-3.84-1.53-3.84-1.53-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.11 3.04.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.1 11.1 0 0 0 23.1 11.6C23.1 5.34 18.27.5 12 .5z"/></svg>
+                  Code
+                </a>
+                <a href="#" class="btn btn--primary btn--sm">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card--muted" data-reveal>
+            <div class="project-card__media">
+              <img src="images/project-comingsoon.svg" alt="Placeholder artwork for a future project currently in progress" loading="lazy" width="800" height="600">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">03</span>
+              <h3 class="project-card__title">Coming Soon</h3>
+              <p class="project-card__desc">Something new is in the works. Follow along on
+                GitHub to see it as it's built.</p>
+              <ul class="tag-list" aria-label="Status">
+                <li class="tag">In progress</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/NatashaIkram" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--sm">Follow along</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="section-inner about__inner">
+        <div class="about__art" data-reveal aria-hidden="true">
+          <svg viewBox="0 0 400 460" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.5" width="399" height="459" rx="20" fill="#171B22" stroke="rgba(255,255,255,.08)"/>
+            <text x="36" y="70" font-family="Manrope, sans-serif" font-size="15" fill="#A1A8B3" letter-spacing="2">profile.tsx</text>
+            <line x1="36" y1="90" x2="364" y2="90" stroke="rgba(255,255,255,.08)"/>
+            <rect x="36" y="120" width="60" height="8" rx="4" fill="#00C896" opacity="0.7"/>
+            <rect x="36" y="146" width="300" height="8" rx="4" fill="#2A313D"/>
+            <rect x="36" y="164" width="270" height="8" rx="4" fill="#2A313D"/>
+            <rect x="36" y="182" width="230" height="8" rx="4" fill="#2A313D"/>
+            <rect x="36" y="220" width="80" height="8" rx="4" fill="#10B981" opacity="0.7"/>
+            <rect x="36" y="246" width="300" height="8" rx="4" fill="#2A313D"/>
+            <rect x="36" y="264" width="250" height="8" rx="4" fill="#2A313D"/>
+            <g transform="translate(36,320)">
+              <rect width="140" height="52" rx="10" fill="#1F2630" stroke="rgba(255,255,255,.08)"/>
+              <text x="16" y="24" font-family="Manrope, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700">8+</text>
+              <text x="16" y="40" font-family="Inter, sans-serif" font-size="10" fill="#A1A8B3">Technologies</text>
+            </g>
+            <g transform="translate(190,320)">
+              <rect width="140" height="52" rx="10" fill="#1F2630" stroke="rgba(255,255,255,.08)"/>
+              <text x="16" y="24" font-family="Manrope, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700">100%</text>
+              <text x="16" y="40" font-family="Inter, sans-serif" font-size="10" fill="#A1A8B3">Responsive</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="about__copy" data-reveal>
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">Precision, not decoration.</h2>
+          <p class="about__text">I am a Frontend Developer passionate about building modern,
+            responsive and user-friendly web experiences. I enjoy transforming ideas into
+            polished digital interfaces while continuously learning new technologies and
+            improving my craft.</p>
+          <p class="about__text">My process starts with structure — clean, semantic markup
+            before a single line of styling — then layers in design and interaction with a
+            bias toward clarity over ornament.</p>
+
+          <ul class="about__stats">
+            <li>
+              <span class="about__stat-num">BS IT</span>
+              <span class="about__stat-label">In progress</span>
+            </li>
+            <li>
+              <span class="about__stat-num">8+</span>
+              <span class="about__stat-label">Core technologies</span>
+            </li>
+            <li>
+              <span class="about__stat-num">A11y</span>
+              <span class="about__stat-label">First mindset</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="skills" id="skills">
+      <div class="section-inner">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Toolbox</p>
+          <h2 class="section-title">Skills</h2>
+          <p class="section-lead">The languages and tools I reach for most, from first sketch
+            to shipped interface.</p>
+        </div>
+
+        <ul class="chip-grid">
+          <li class="chip" data-reveal>HTML5</li>
+          <li class="chip" data-reveal>CSS3</li>
+          <li class="chip" data-reveal>JavaScript</li>
+          <li class="chip" data-reveal>Responsive Design</li>
+          <li class="chip" data-reveal>PHP</li>
+          <li class="chip" data-reveal>Python</li>
+          <li class="chip" data-reveal>MySQL</li>
+          <li class="chip" data-reveal>GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ DESIGN PHILOSOPHY ============ -->
+    <section class="philosophy" id="philosophy">
+      <div class="section-inner">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Principles</p>
+          <h2 class="section-title">Design Philosophy</h2>
+          <p class="section-lead">Four commitments that shape every interface I build,
+            regardless of the brief.</p>
+        </div>
+
+        <ul class="philosophy-grid">
+          <li class="philosophy-card" data-reveal>
+            <svg class="philosophy-card__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <circle cx="16" cy="16" r="11" stroke="#00C896" stroke-width="1.4"/>
+              <circle cx="16" cy="16" r="5.5" stroke="#00C896" stroke-width="1.4"/>
+              <circle cx="16" cy="16" r="1.4" fill="#00C896"/>
+            </svg>
+            <h3 class="philosophy-card__title">Attention to Detail</h3>
+            <p class="philosophy-card__desc">Spacing, alignment and state changes are considered
+              deliberately, not left to default.</p>
+          </li>
+          <li class="philosophy-card" data-reveal>
+            <svg class="philosophy-card__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <circle cx="16" cy="9" r="3" stroke="#00C896" stroke-width="1.4"/>
+              <path d="M4 14c4 2.4 20 2.4 24 0M16 14v13M16 20l-6 6M16 20l6 6" stroke="#00C896" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="philosophy-card__title">Accessibility</h3>
+            <p class="philosophy-card__desc">Semantic markup, keyboard support and contrast that
+              works for every user, by default.</p>
+          </li>
+          <li class="philosophy-card" data-reveal>
+            <svg class="philosophy-card__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <path d="M17 4 6 18h8l-2 10 13-16h-9l1-8Z" stroke="#00C896" stroke-width="1.4" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="philosophy-card__title">Performance</h3>
+            <p class="philosophy-card__desc">Lean markup, optimized assets and minimal
+              JavaScript — fast by construction, not afterthought.</p>
+          </li>
+          <li class="philosophy-card" data-reveal>
+            <svg class="philosophy-card__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <path d="M11 6 5 16l6 10M21 6l6 10-6 10M18 5l-4 22" stroke="#00C896" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="philosophy-card__title">Clean Code</h3>
+            <p class="philosophy-card__desc">Readable, well-structured and reusable — code the
+              next developer can pick up without friction.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="section-inner contact__inner">
+        <div class="contact__intro" data-reveal>
+          <p class="eyebrow">Get In Touch</p>
+          <h2 class="contact__heading">Let's Build Something Meaningful</h2>
+          <p class="section-lead">Open to frontend roles, freelance projects, and good
+            conversations about interfaces.</p>
+          <a href="mailto:hello@natashaikram.dev" class="btn btn--primary contact__cta">Say Hello</a>
+        </div>
+
+        <ul class="contact__list" data-reveal>
+          <li class="contact__item">
+            <span class="contact__label">Email</span>
+            <a href="mailto:hello@natashaikram.dev" class="contact__value">hello@natashaikram.dev</a>
+          </li>
+          <li class="contact__item">
+            <span class="contact__label">GitHub</span>
+            <a href="https://github.com/NatashaIkram" target="_blank" rel="noopener noreferrer" class="contact__value">github.com/NatashaIkram</a>
+          </li>
+          <li class="contact__item">
+            <span class="contact__label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/natasha-ikram-4a92073ab/" target="_blank" rel="noopener noreferrer" class="contact__value">/in/natasha-ikram</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="section-inner footer__inner">
+      <p class="footer__copy">&copy; <span id="year">2026</span> Natasha Ikram</p>
+      <div class="footer__social">
+        <a href="https://github.com/NatashaIkram" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/natasha-ikram-4a92073ab/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <button class="footer__top" id="backToTop" aria-label="Back to top">
+        <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 11V3M3 7l4-4 4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Top
+      </button>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

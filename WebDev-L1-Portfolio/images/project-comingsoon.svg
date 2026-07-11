@@ -1,0 +1,11 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="csTitleDark">
+  <title id="csTitleDark">Upcoming project placeholder, dark theme</title>
+  <rect width="800" height="600" fill="#171B22"/>
+  <rect x="0.5" y="0.5" width="799" height="599" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1" stroke-dasharray="7 9"/>
+  <g stroke="#3A4250" stroke-width="1.5">
+    <line x1="340" y1="260" x2="460" y2="340"/>
+    <line x1="460" y1="260" x2="340" y2="340"/>
+  </g>
+  <circle cx="400" cy="300" r="58" fill="none" stroke="#3A4250" stroke-width="1.5"/>
+  <text x="400" y="410" font-family="Inter, sans-serif" font-size="14" letter-spacing="4" fill="#6B7280" text-anchor="middle">IN PROGRESS</text>
+</svg>

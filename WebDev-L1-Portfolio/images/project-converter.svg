@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="convTitleDark">
+  <title id="convTitleDark">Temperature converter interface preview, dark browser frame</title>
+  <rect width="800" height="600" fill="#0F1115"/>
+  <rect x="0" y="0" width="800" height="46" fill="#1F2630"/>
+  <circle cx="28" cy="23" r="5.5" fill="#3A4250"/>
+  <circle cx="50" cy="23" r="5.5" fill="#3A4250"/>
+  <circle cx="72" cy="23" r="5.5" fill="#3A4250"/>
+  <line x1="0" y1="46" x2="800" y2="46" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+  <rect x="230" y="110" width="340" height="380" rx="20" fill="#171B22" stroke="rgba(255,255,255,.08)"/>
+  <text x="400" y="170" font-family="Inter, sans-serif" font-size="15" letter-spacing="3" fill="#6B7280" text-anchor="middle">CELSIUS</text>
+  <text x="400" y="235" font-family="Manrope, sans-serif" font-size="54" fill="#FFFFFF" text-anchor="middle">24&#176;</text>
+  <line x1="270" y1="270" x2="530" y2="270" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+  <text x="400" y="320" font-family="Inter, sans-serif" font-size="15" letter-spacing="3" fill="#6B7280" text-anchor="middle">FAHRENHEIT</text>
+  <text x="400" y="385" font-family="Manrope, sans-serif" font-size="54" fill="#00C896" text-anchor="middle">75.2&#176;</text>
+  <rect x="320" y="430" width="160" height="34" rx="17" fill="#00C896" opacity="0.14"/>
+  <text x="400" y="452" font-family="Inter, sans-serif" font-size="13" letter-spacing="2" fill="#00C896" text-anchor="middle">CONVERT</text>
+</svg>

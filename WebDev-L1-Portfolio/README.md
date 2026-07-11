@@ -48,13 +48,11 @@ No CSS or JS frameworks, no Bootstrap, no Tailwind, no build step.
 ## Folder Structure
 
 ```
-portfolio-dark/
+portfolio/
 ├── index.html
 ├── README.md
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── style.css
+├── script.js
 └── images/
     ├── project-lumera.svg
     ├── project-converter.svg
@@ -65,12 +63,12 @@ portfolio-dark/
 
 No build tools are required.
 
-1. Download or clone the `portfolio-dark` folder.
+1. Download or clone the `portfolio` folder.
 2. Open `index.html` directly in a browser, **or** serve it locally (recommended, so
    relative asset paths and fonts resolve identically to production):
 
    ```bash
-   cd portfolio-dark
+   cd portfolio
    python3 -m http.server 8000
    ```
 

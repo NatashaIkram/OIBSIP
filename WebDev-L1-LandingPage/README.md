@@ -31,7 +31,7 @@ Design and build a fully responsive, single-page luxury e-commerce homepage that
 - `index.html` — complete single-file page (HTML + CSS + JS)
 
 ##  How to Run
-Simply open `index.html` in any modern browser. No build step or dependencies required (fonts load from Google Fonts CDN, images from Unsplash CDN).
+Simply open `index.html` in any modern browser. No build step or dependencies required (fonts load from Google).
 
 ##  Notes
 Built as a static front-end demo — no backend, cart, or payment functionality is included, as the task focus is UI/UX and responsive front-end architecture.

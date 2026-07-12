@@ -52,7 +52,7 @@ WebDev-L1-TemperatureConverter/
 ├── style.css
 ├── script.js
 ├── README.md
-└── images/
+└── screenshots/
 ```
 
 ---

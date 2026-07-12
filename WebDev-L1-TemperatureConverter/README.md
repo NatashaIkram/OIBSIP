@@ -1,69 +1,126 @@
-# Temperature Converter
+ # 🌡️ Temperature Converter
 
-This project is developed as part of the Oasis Infobyte Web Development & Designing Internship.
-# Temperature Converter
+A modern, responsive Temperature Converter web application built as part of the **Oasis Infobyte Web Development & Designing Internship (OIBSIP)**.
 
-A polished, single-purpose utility for converting temperatures between Celsius, Fahrenheit, and Kelvin — built with plain HTML, CSS, and JavaScript.
+This project demonstrates clean frontend development using **HTML5, CSS3, and Vanilla JavaScript**, while focusing on user experience, accessibility, responsive design, and real-time input validation.
 
-## Project Overview
+---
 
-Temperature Converter is a small, focused web app that takes a value in any one of three temperature scales and instantly returns the equivalent in all three. It's designed to feel like a real productivity utility: a single glass-style card, generous whitespace, considered typography, and quiet micro-interactions rather than flashy effects.
+## 📌 Project Objective
 
-## Features
+The goal of this project was to design and develop a professional temperature conversion tool that allows users to convert values between **Celsius**, **Fahrenheit**, and **Kelvin** through a clean and intuitive interface.
 
-- Convert between **Celsius**, **Fahrenheit**, and **Kelvin** in one action, with all three results shown at once
-- Real-time validation while typing, plus full validation on submit
-- Rejects empty input, non-numeric input, and temperatures below absolute zero (‑273.15 °C / ‑459.67 °F / 0 K), each with a clear, friendly message instead of a browser `alert()`
-- Press **Enter** to convert
-- **Copy** button to copy all three results to the clipboard
-- **Reset** button to clear the form and start over
-- Short (~300ms) loading state and smooth fade-in when results update
-- Fully responsive, from desktop down to small mobile screens
-- Accessible: semantic HTML, labelled fields, live regions for errors and results, visible keyboard focus states, and respect for `prefers-reduced-motion`
+Unlike a basic calculator-style converter, this project focuses on delivering a modern user experience with thoughtful UI design, smooth interactions, and robust validation.
 
-## Technology Stack
+---
 
-- **HTML5** — semantic structure
-- **CSS3** — custom properties (design tokens), Flexbox/Grid layout, no framework
-- **Vanilla JavaScript (ES6+)** — no libraries, no build step
-- **Google Fonts** — Manrope (with Inter as a system fallback)
+## ✨ Features
 
-No Bootstrap, Tailwind, React, or other frameworks are used.
+- 🌡 Convert between Celsius, Fahrenheit, and Kelvin
+- ⚡ Display all converted values simultaneously
+- ✅ Real-time numeric input validation
+- 🚫 Friendly error messages for invalid values
+- ❄ Absolute Zero validation
+- ⌨ Press **Enter** to convert instantly
+- 📋 Copy all converted values with one click
+- 🔄 Reset button to clear all fields
+- 🎨 Modern responsive interface
+- 📱 Mobile-friendly design
+- ♿ Accessible semantic HTML with keyboard support
+- 🎞 Smooth transitions and micro-interactions
+- 🌙 Supports reduced-motion accessibility preferences
 
-## Folder Structure
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6)
+- Google Fonts (Manrope)
+
+No external frameworks or libraries were used.
+
+---
+
+## 📁 Project Structure
 
 ```
-temperature-converter/
-├── index.html      # Markup and page structure
-├── style.css        # All styling (design tokens, layout, components, responsive rules)
-├── script.js         # Application logic (validation, conversion, rendering)
-├── images/            # Reserved for any static image assets
-└── README.md          # This file
+WebDev-L1-TemperatureConverter/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
 ```
 
-## How to Run
+---
 
-No build tools or dependencies are required.
+## 🚀 How to Run
 
-1. Download or clone the project folder.
-2. Open `index.html` directly in any modern browser, **or** serve it locally for the best experience with the clipboard API:
-   ```bash
-   python3 -m http.server 8000
-   ```
-   Then visit `http://localhost:8000` in your browser.
+1. Download or clone this project.
+2. Open **index.html** in any modern web browser.
 
-## Screenshots
+Or run a local server:
 
-Screenshots are not included in this repository. To capture your own, open the app in a browser and use your OS screenshot tool — a good set to capture is: the empty state, a successful conversion, the absolute-zero error card, and the mobile layout.
+```bash
+python -m http.server
+```
 
-## Future Improvements
+Then visit:
 
-- Add unit conversion history with the ability to revisit past conversions
-- Support additional scales (Rankine, Réaumur)
-- Add a dark mode toggle
-- Persist the last-used unit and value between sessions
-- Add unit tests for the conversion and validation functions
+```
+http://localhost:8000
+```
 
-## Author
+---
 
-Built as a demonstration of production-quality frontend craft: clean architecture, accessible markup, and a design system-driven interface.
+## 📸 Screenshots
+
+Include screenshots such as:
+
+- Home Screen
+- Successful Conversion
+- Invalid Input Message
+- Absolute Zero Validation
+- Mobile Responsive View
+
+---
+
+## 💡 Future Improvements
+
+- Dark Mode
+- Conversion History
+- Additional Temperature Units
+- Unit Preference Memory
+- Animated Charts
+- Progressive Web App (PWA) Support
+
+---
+
+## 👩‍💻 Author
+
+**Natasha Ikram**
+
+Frontend Developer
+
+GitHub:
+https://github.com/NatashaIkram
+
+LinkedIn:
+https://www.linkedin.com/in/natasha-ikram-4a92073ab/
+
+---
+
+## 📜 Internship
+
+This project was created as part of the **Oasis Infobyte Web Development & Designing Internship (OIBSIP)**.
+
+Task:
+
+**Level 1 – Task 3: Temperature Converter**
+
+---
+
+⭐ If you like this project, feel free to star the repository.

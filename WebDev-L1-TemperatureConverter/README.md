@@ -1,4 +1,4 @@
- # 🌡️ Temperature Converter
+ #  Temperature Converter
 
 A modern, responsive Temperature Converter web application built as part of the **Oasis Infobyte Web Development & Designing Internship (OIBSIP)**.
 
@@ -6,7 +6,7 @@ This project demonstrates clean frontend development using **HTML5, CSS3, and Va
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 The goal of this project was to design and develop a professional temperature conversion tool that allows users to convert values between **Celsius**, **Fahrenheit**, and **Kelvin** through a clean and intuitive interface.
 
@@ -14,25 +14,25 @@ Unlike a basic calculator-style converter, this project focuses on delivering a 
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🌡 Convert between Celsius, Fahrenheit, and Kelvin
-- ⚡ Display all converted values simultaneously
-- ✅ Real-time numeric input validation
-- 🚫 Friendly error messages for invalid values
-- ❄ Absolute Zero validation
-- ⌨ Press **Enter** to convert instantly
-- 📋 Copy all converted values with one click
-- 🔄 Reset button to clear all fields
-- 🎨 Modern responsive interface
-- 📱 Mobile-friendly design
-- ♿ Accessible semantic HTML with keyboard support
-- 🎞 Smooth transitions and micro-interactions
-- 🌙 Supports reduced-motion accessibility preferences
+-  Convert between Celsius, Fahrenheit, and Kelvin
+-  Display all converted values simultaneously
+-  Real-time numeric input validation
+-  Friendly error messages for invalid values
+-  Absolute Zero validation
+-  Press **Enter** to convert instantly
+-  Copy all converted values with one click
+-  Reset button to clear all fields
+-  Modern responsive interface
+-  Mobile-friendly design
+-  Accessible semantic HTML with keyboard support
+-  Smooth transitions and micro-interactions
+-  Supports reduced-motion accessibility preferences
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -43,7 +43,7 @@ No external frameworks or libraries were used.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 WebDev-L1-TemperatureConverter/
@@ -57,7 +57,7 @@ WebDev-L1-TemperatureConverter/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Download or clone this project.
 2. Open **index.html** in any modern web browser.
@@ -76,7 +76,7 @@ http://localhost:8000
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Include screenshots such as:
 
@@ -88,7 +88,7 @@ Include screenshots such as:
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 - Dark Mode
 - Conversion History
@@ -99,7 +99,7 @@ Include screenshots such as:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Natasha Ikram**
 
@@ -113,7 +113,7 @@ https://www.linkedin.com/in/natasha-ikram-4a92073ab/
 
 ---
 
-## 📜 Internship
+##  Internship
 
 This project was created as part of the **Oasis Infobyte Web Development & Designing Internship (OIBSIP)**.
 

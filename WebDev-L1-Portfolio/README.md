@@ -109,7 +109,7 @@ No backend functionality, database integration, or server-side processing has be
 
 ##  Preview
 
-Add a screenshot of your portfolio homepage inside the **images** folder and reference it below.
+ 
 
 ```markdown
 ![Portfolio Preview](images/home.png)

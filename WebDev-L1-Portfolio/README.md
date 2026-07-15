@@ -1,117 +1,149 @@
-# Personal Portfolio
+ # Natasha Ikram — Personal Portfolio
 
-This project is developed as part of the Oasis Infobyte Web Development & Designing Internship.
-# Natasha Ikram — Portfolio 
+This project was developed as part of the **Oasis Infobyte Web Development & Designing Internship (OIBSIP)**.
 
-## Project Overview
+---
 
-A responsive personal portfolio for Natasha Ikram, Frontend Developer, designed to
-read like a real product — restrained, editorial, and dark-themed — rather than a student
-project. Built entirely with semantic HTML5, hand-authored CSS3, and vanilla JavaScript, with
-no frameworks or build tooling required.
+##  Project Overview
 
-The design draws on the visual language of Linear, Vercel, Framer, and Stripe: a near-black
-interface, a single confident accent color, and typography carrying most of the personality.
+This project is a modern, responsive personal portfolio website designed to showcase my skills, projects, and contact information in a clean and professional manner.
 
-## Features
+The design follows contemporary UI/UX principles inspired by modern developer portfolios, featuring a dark theme, elegant typography, smooth animations, and responsive layouts. The entire website is built using semantic HTML5, CSS3, and Vanilla JavaScript without relying on any frameworks or libraries.
 
-- **Sticky, transparent-to-blurred navigation** — starts transparent over the hero and
-  transitions to a blurred dark surface once the user scrolls.
-- **Editorial hero** with a headline-first introduction and a hand-built animated wireframe
-  sphere (SVG + CSS), instead of a profile photo or coding illustration.
-- **Featured Projects** section with large cards, technology tags, GitHub and live-demo
-  links, and a subtle lift-and-zoom hover interaction.
-- **About** section in a split layout with lightweight stats — no long paragraphs.
-- **Skills** shown as elegant, hoverable technology chips — no progress bars or percentages.
-- **Design Philosophy** section: four principles (Attention to Detail, Accessibility,
-  Performance, Clean Code), each with a minimalist line-icon.
-- **Contact** section with a large heading, email/GitHub/LinkedIn list, and a clear CTA.
-- **Scroll-reveal animations**, driven by `IntersectionObserver`, with instant fallbacks when
-  `prefers-reduced-motion` is set.
-- **Fully responsive** from a 1440px desktop container down to 480px mobile, with no
-  horizontal scroll or overlapping elements at any breakpoint.
-- **Accessible by default** — semantic landmarks, logical heading order, visible focus
-  states, descriptive alt text, and WCAG-conscious contrast on every text/background pairing.
+---
 
-## Technology Stack
+##  Objective
 
-| Layer       | Choice                                   |
-|-------------|-------------------------------------------|
-| Markup      | Semantic HTML5                             |
-| Styling     | CSS3 (custom properties, Grid, Flexbox)    |
-| Interaction | Vanilla JavaScript (ES6+, no dependencies) |
-| Type        | Manrope (headings), Inter (body), via Google Fonts |
-| Icons       | Hand-drawn inline SVG                      |
+The objective of this project is to create a professional portfolio website that effectively presents my technical skills, projects, and personal profile while demonstrating modern frontend development practices, responsive design, accessibility, and clean code organization.
 
-No CSS or JS frameworks, no Bootstrap, no Tailwind, no build step.
+---
 
-## Folder Structure
+##  Technology Stack
 
-```
-portfolio/
+- **HTML5** — Semantic page structure
+- **CSS3** — Flexbox, Grid, Custom Properties (CSS Variables), Responsive Design, Animations
+- **Vanilla JavaScript (ES6)** — Interactive components, Navigation, Scroll Animations
+- **Google Fonts** — Manrope & Inter
+- **SVG Icons** — Lightweight scalable vector graphics
+
+---
+
+##  Features
+
+- Professional sticky navigation bar
+- Responsive hero section
+- About Me section
+- Technical Skills section
+- Featured Projects showcase
+- Design Philosophy section
+- Contact section
+- Smooth scrolling navigation
+- Scroll reveal animations
+- Mobile-friendly responsive layout
+- Accessible semantic HTML structure
+- Clean typography and consistent design system
+- Optimized for desktop, tablet, and mobile devices
+
+---
+
+##  Project Structure
+
+```text
+WebDev-L1-Portfolio/
+│
 ├── index.html
-├── README.md
 ├── style.css
 ├── script.js
+├── README.md
 └── images/
-    ├── project-lumera.svg
-    ├── project-converter.svg
-    └── project-comingsoon.svg
+    ├── profile.jpg
+    ├── project-lumera.jpg
+    ├── project-portfolio.jpg
+    ├── project-converter.jpg
+    └── ...
 ```
 
-## Installation
+---
 
-No build tools are required.
+##  How to Run
 
-1. Download or clone the `portfolio` folder.
-2. Open `index.html` directly in a browser, **or** serve it locally (recommended, so
-   relative asset paths and fonts resolve identically to production):
+1. Download or clone this repository.
+2. Open the **WebDev-L1-Portfolio** folder.
+3. Make sure that **index.html**, **style.css**, **script.js**, and the **images** folder remain in the same directory.
+4. Open **index.html** in any modern web browser.
 
-   ```bash
-   cd portfolio
-   python3 -m http.server 8000
-   ```
+No installation, build tools, or external dependencies are required.
 
-   Then visit `http://localhost:8000`.
+---
 
-### Customizing
+##  Responsive Design
 
-- **Copy** lives directly in `index.html` — section comments (`<!-- ============ HERO ============ -->`)
-  mark where each block starts.
-- **Colors, type scale and spacing** are CSS custom properties at the top of `css/style.css`
-  under `:root` — change a token once and it updates everywhere.
-- **Resume button** currently points to `#`; replace the `href` with a real PDF path (e.g.
-  `assets/resume.pdf`) and add the file.
-- **Project images**: swap the SVG placeholders in `images/` for real screenshots, keeping
-  the same filenames, or update the `src` attributes in `index.html`.
-- **Live Demo links** are placeholders (`#`) until each project is deployed.
+The website has been fully optimized for different screen sizes, including:
 
-## Screenshots
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
 
-_Add screenshots of the live site here once deployed — for example:_
+The layout automatically adjusts to provide a consistent and user-friendly experience across all devices.
 
-```
-images/screenshots/hero.png
-images/screenshots/projects.png
-images/screenshots/mobile.png
-```
+---
+
+##  Notes
+
+This project was developed as a frontend portfolio demonstration for the Oasis Infobyte Web Development & Designing Internship.
+
+The primary focus of this project includes:
+
+- Professional UI/UX Design
+- Semantic HTML5
+- Modern CSS Architecture
+- Vanilla JavaScript Interactivity
+- Responsive Web Design
+- Accessibility Best Practices
+- Clean and Maintainable Code
+
+No backend functionality, database integration, or server-side processing has been implemented, as the objective of the task is frontend web development.
+
+---
+
+##  Preview
+
+Add a screenshot of your portfolio homepage inside the **images** folder and reference it below.
 
 ```markdown
-![Hero section](images/screenshots/hero.png)
-![Projects section](images/screenshots/projects.png)
+![Portfolio Preview](images/home.png)
 ```
 
-## Author
+---
+
+##  Author
 
 **Natasha Ikram**
-Frontend Developer · BS Information Technology
-[GitHub](https://github.com/NatashaIkram) · [LinkedIn](https://www.linkedin.com/in/natasha-ikram-4a92073ab/)
 
-## Future Improvements
+Frontend Developer
 
-- Replace SVG project placeholders with real product screenshots once each project is live.
-- Add a working contact form (with server-side or third-party handling) alongside the mailto link.
-- Add a lightweight case-study page per project (problem, process, outcome) linked from each card.
-- Add a light-mode toggle while preserving the dark theme as default.
-- Wire up analytics and Open Graph / social preview meta tags for shareability.
-- Add automated accessibility and Lighthouse performance checks to a CI workflow.
+BS Information Technology
+
+**GitHub:**  
+https://github.com/NatashaIkram
+
+**LinkedIn:**  
+https://www.linkedin.com/in/natasha-ikram-4a92073ab/
+
+---
+
+##  Future Improvements
+
+- Add downloadable resume functionality
+- Integrate a functional contact form
+- Add project case study pages
+- Include a blog section
+- Implement a light/dark theme toggle
+- Improve SEO using meta tags and structured data
+- Deploy the portfolio with a custom domain
+- Add performance and accessibility audits using Lighthouse
+
+---
+
+*Developed as part of the Oasis Infobyte Web Development & Designing Internship (OIBSIP).*

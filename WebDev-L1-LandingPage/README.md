@@ -1,40 +1,117 @@
-# Landing Page
+ # LUMÉRA JEWELS — Luxury E-commerce Landing Page
 
-This project is developed as part of the Oasis Infobyte Web Development & Designing Internship.
-# LUMÉRA JEWELS — Luxury E-commerce Landing Page
+This project was developed as part of the **Oasis Infobyte Web Development & Designing Internship (OIBSIP)**.
 
-A premium, editorial-style landing page concept for a fictional luxury jewelry house, built as part of the Oasis Infobyte Web Development internship.
+##  Project Overview
 
-##  Objective
-Design and build a fully responsive, single-page luxury e-commerce homepage that communicates elegance, craftsmanship, and exclusivity — modeled after high-end jewelry brand websites.
-
-##  Tech Stack
-- **HTML5** — semantic structure
-- **CSS3** — custom properties (CSS variables), Grid & Flexbox, keyframe animations
-- **Vanilla JavaScript** — scroll-based header state, load animation
-- **Google Fonts** — Cormorant Garamond (display) + Poppins (body)
-
-##  Features
-- Transparent-to-solid navigation on scroll
-- Editorial split-layout hero section with entrance animation
-- Featured Collections grid (Rings, Necklaces, Bracelets, Earrings)
-- Asymmetrical "Our Story" section with craftsmanship stats
-- Three-card "Why Luméra" value proposition section
-- Best Sellers product grid with image-swap hover, wishlist button, and quick view
-- Testimonials section with 5-star ratings
-- Newsletter sign-up ("Become Part of the Luméra Circle")
-- Editorial footer with sitemap and social links
-- Fully responsive: desktop, tablet, and mobile — no horizontal scroll, no overlap
-- Accessible: semantic HTML, visible focus states, reduced-motion support
-
-##  Files
-- `index.html` — complete single-file page (HTML + CSS + JS)
-
-##  How to Run
-Simply open `index.html` in any modern browser. No build step or dependencies required (fonts load from Google).
-
-##  Notes
-Built as a static front-end demo — no backend, cart, or payment functionality is included, as the task focus is UI/UX and responsive front-end architecture.
+LUMÉRA JEWELS is a premium, editorial-style luxury jewelry landing page designed to replicate the visual experience of high-end jewelry brands. The website emphasizes elegant typography, balanced layouts, refined color palettes, smooth animations, and a fully responsive user experience across desktop, tablet, and mobile devices.
 
 ---
-*Part of the Oasis Infobyte Summer Internship Program (OIBSIP) — Web Development Track.*
+
+##  Objective
+
+Design and develop a luxury e-commerce landing page that showcases a fictional jewelry brand while demonstrating modern front-end development skills using HTML, CSS, and JavaScript.
+
+---
+
+##  Tech Stack
+
+- **HTML5** — Semantic page structure
+- **CSS3** — Custom Properties (CSS Variables), Flexbox, Grid, Responsive Design, Animations
+- **Vanilla JavaScript** — Navigation effects, animations, and interactive elements
+- **Google Fonts** — Cormorant Garamond & Poppins
+
+---
+
+##  Features
+
+- Transparent navigation that changes on scroll
+- Editorial split-layout hero section
+- Featured Collections section
+- Luxury "Our Story" section
+- Craftsmanship statistics
+- "Why Luméra" value proposition cards
+- Best Sellers product showcase
+- Image hover effects
+- Wishlist & Quick View interactions
+- Customer testimonials
+- Newsletter subscription section
+- Elegant footer with navigation links
+- Fully responsive for Desktop, Tablet & Mobile
+- Accessible semantic HTML and keyboard focus support
+- Smooth animations and transitions
+
+---
+
+##  Project Structure
+
+```text
+WebDev-L1-LandingPage/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+    ├── hero.jpg
+    ├── story.jpg
+    ├── collection-1.jpg
+    ├── collection-2.jpg
+    ├── product-1.jpg
+    ├── product-2.jpg
+    └── ...
+```
+
+---
+
+##  How to Run
+
+1. Download or clone this repository.
+2. Open the **WebDev-L1-LandingPage** folder.
+3. Ensure all project files remain in the same directory.
+4. Open **index.html** in any modern web browser.
+
+No installation, build process, or external dependencies are required.
+
+---
+
+##  Responsive Design
+
+The website has been optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+The layout automatically adapts to different screen sizes while maintaining a premium user experience.
+
+---
+
+##  Notes
+
+This project is a **front-end UI/UX demonstration** created for the Oasis Infobyte internship.
+
+It focuses on:
+
+- Premium interface design
+- Clean code organization
+- Responsive layouts
+- Modern CSS architecture
+- Vanilla JavaScript interactions
+
+Backend functionality such as authentication, shopping cart, payment gateway, and database integration is intentionally excluded, as the objective is front-end development.
+
+---
+
+##  Author
+
+**Natasha Ikram**
+
+Web Development & Designing Intern
+
+Oasis Infobyte (OIBSIP)
+
+---
+
+*Part of the Oasis Infobyte Web Development & Designing Internship Program (OIBSIP).*
